@@ -10,6 +10,8 @@ This particular project was something I set up to play about with, and to also c
 
 I wanted to solve a realistic problem, so I hooked this up to an online mongo database, and rendered it using some simple jquery in a pivot table.
 
+Why pivots? We all go a little mad sometimes, and I do love pivots
+
 - You can hook this up to any mongo database you want, but I've used [mlab.com](http://mlab.com) - which is a simple enough online mongo service that will give you a free, small, one-database instance for prototyping.
 - I've used Nicolas Kruchten's [javascript pivot table](http://nicolas.kruchten.com/pivottable/examples/) to render the data
 - The data being used in my system came from [jsonstudio](http://jsonstudio.com/resources/), and i ssome sample json data about projects funded by the world bank
