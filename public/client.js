@@ -10,7 +10,7 @@ $(document).ready(
           cols: ['prodlinetext'],
           vals: ['grantamt'],
           aggregatorName: "Sum",
-          rendererName: "Row Heatmap",
+          rendererName: "Heatmap",
           renderers: $.extend(
           	$.pivotUtilities.renderers, 
             $.pivotUtilities.c3_renderers

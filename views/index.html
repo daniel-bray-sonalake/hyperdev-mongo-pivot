@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to HyperDev!</title>
+    <title>Hyperdev, mongo and pivots</title>
     <meta name="description" content="A cool thing made with HyperDev">
     <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
@@ -47,20 +47,19 @@
 
   <div class="container-fluid">
       <div class="page-header">
-        <h1>Node, mongo and pivots</h1>
+        <h1>Hyperdev, mongo and pivots</h1>
+        
         <p>
-          Using following tech and resources:
+          A sample of using node to pull data from mongo, transform it into a very simple table format, so 
+          a javascript component in the browser can pivot the data as the user desires
         </p>
-        <dl class="dl-horizontal">
-            <dt><a href="http://www.hyperdev.com">hyperdev.com</a></dt>
-              <dd>A nice container for doing quick investigations with a real server</dd>
-            <dt><a href="http://www.mlab.com">mlab.com</a></dt>
-              <dd>An online mongo database - the free, single DB version is great for rapid prototyping</dd>
-            <dt><a href="http://nicolas.kruchten.com/pivottable/examples/">pivottable</a></dt>
-              <dd>Nicolas Kruchten's javascript pivot table (also uses C3 and D3) </dd>
-            <dt><a href="http://jsonstudio.com/resources/">jsonstudio</a></dt>
-              <dd>Some sample json data about projects funded by the world bank</dd>
-          </dl>
+        <p>
+          This is mostly a demonstration of how to use <a href="http://www.hyperdev.com">hyperdev.com</a> to
+          pull data from an external data source (in this case mongodb running on <a href="http://www.mlab.com">mlab.com</a>)
+          and present it in a simple UI. 
+        </p>
+        <p>Why pivots? We all go a little mad sometimes, and I do love pivots</p>
+        
       </div>
       
       <div id="output">

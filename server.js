@@ -16,6 +16,7 @@ app.use(express.static('public'));
 app.get("/facts", function(request,response){
   //worldbank
   //pivotsample -- zip code data - too big for this test
+  //lifeexpect - life expectancy at birth
   model.find("worldbank", function(data){
       response.send(pivoty.pivot(data));
   })
