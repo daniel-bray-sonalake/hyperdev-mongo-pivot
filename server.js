@@ -13,11 +13,11 @@ app.use(express.static('public'));
 
 
 // the endpoint to get at the facts for the pivots
-app.get("/facts", function(request,response){
+app.get("/facts/:collection", function(request,response){
   //worldbank
-  //pivotsample -- zip code data - too big for this test
-  //lifeexpect - life expectancy at birth
-  model.find("worldbank", function(data){
+  //football 2014/2015 england premier league
+  console.log('Getting collection: "'+request.params.collection+'"');
+  model.find(request.params.collection, function(data){
       response.send(pivoty.pivot(data));
   })
 });
